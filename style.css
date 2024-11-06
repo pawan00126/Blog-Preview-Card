@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(226, 154, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Figtree';
+}
+
+
+.card{
+   margin:auto 40%;
+   border: 2px solid black;
+   border-radius: 20px;
+   background-color: white;
+   padding: 15px 20px;
+   
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.type{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(226, 154, 19);
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.date{
+    margin: 9px 3px;
+}
+
+.heading{
+    font-size: 28px;
+    font-weight: 800;
+    margin: 10px 0px;
+
+}
+
+.heading:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+
+}
+
+.text{
+    line-height: 20px;
+}
+
+.author{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.author img{
+    height: 50px;
+}
+
+.author span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+@media (max-width: 400px){
+    
+    body{
+        overflow-y:hidden ;
+        display:block;
+    }
+    
+    .card{
+       margin-left: 6%;
+       margin-right: 6%;
+       margin-top: 20%;
+       padding: 15px 15px;
+       overflow: hidden;
+       
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img img{
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .type{
+        font-size: 15px;
+        font-weight: 900;
+        background-color: rgb(226, 154, 19);
+        display: inline-block;
+        /* padding: 5px 15px; */
+        border-radius: 7px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .date{
+        margin: 9px 3px;
+    }
+    
+    .heading{
+        font-size: 20px;
+        font-weight: 900;
+        margin: 10px 0px;
+    
+    }  
+    
+}
